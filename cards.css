@@ -1,0 +1,114 @@
+.card {
+    width: 250px;
+    background: white;
+    padding: 0.3em;
+    border-radius: 16px;
+    
+  }
+  
+  .card-image1 {
+    background-color: rgb(236, 236, 236);
+    background-image: url("./images/property-01.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .card-image2 {
+    background-color: rgb(236, 236, 236);
+    background-image: url("./images/property-02.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+
+
+  .card-image3 {
+    background-color: rgb(236, 236, 236);
+    background-image: url("./images/property-03.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+  }
+  
+  .card-image:hover {
+    transform: scale(0.98);
+  }
+  
+  .category {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-weight: bolder;
+    color: black !important;
+    font-weight: 600;
+    color: rgb(63, 121, 230);
+    padding: 10px 7px 10px;
+    /* margin-top: 15px; */
+    height: 30px;
+    width: 100px;
+    background-color: rgb(248, 182, 147);
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  .category:hover {
+    
+    cursor: pointer;
+  }
+  
+  .heading {
+    /* font-weight: 600; */
+    padding: 7px;
+  }
+  
+  .heading:hover {
+    cursor: pointer;
+  }
+  
+  .author {
+    color: gray;
+    font-weight: 400;
+    font-size: 11px;
+    padding-top: 20px;
+  }
+  
+  .name {
+    font-weight: 600;
+  }
+  
+  .name:hover {
+    cursor: pointer;
+  }
+
+
+
+
+  h2 {
+    margin-top: 0;
+  }
+  
+  .card1 {
+    padding: 40px;
+    background: #fff;
+    max-width: 360px;
+    border-radius: 20px;
+    margin: 60px auto;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: #294;
+  }
+  
+  .shadow1 { 
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+  }
+  
+  
